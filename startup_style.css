@@ -1,0 +1,65 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+
+  background: url(header_picture.jpeg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+hr:not([size]) {
+  height: 4px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+hr {
+  color: rgb(97, 62, 107);
+  opacity: 0.75;
+  max-width: 80px;
+  margin: 1rem auto;
+}
+
+.image-text {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  margin: 1rem auto 0 auto;
+  padding: 1rem;
+}
+
+.titles {
+  font-family: 'Poppins', sans-serif;
+
+  color: rgba(91, 36, 107, 1);
+}
+
+.buffer {
+  height: 1.25rem;
+}
+
+.btn-primary {
+  font-weight: 700;
+  border-radius: 300px;
+  background-color: rgba(91, 36, 107, 1);
+  border-color: rgba(91, 36, 107, 1);
+}
+
+.btn-primary:hover {
+  background-color: rgba(117, 69, 131, 1);
+  border-color: rgba(117, 69, 131, 1);
+  border-width: 2px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+#subtitle {
+  color: rgba(26, 1, 33, 1);
+}
